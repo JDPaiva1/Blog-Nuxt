@@ -1,0 +1,23 @@
+@font-face {
+	font-family: "Merriweather";
+	font-style: normal;
+  font-display: swap;
+	font-weight: 400;
+  src: local('Merriweather Regular'), local('Merriweather-Regular'), url(https://fonts.gstatic.com/l/font?kit=u-440qyriQwlOrhSvowK_l5OfixLV-fN-9jFE023MaBO0dSFTPXAhCGiQrDmS6Hz5gnztHO_QzJdSRySQZC3BtCsExbQIU43tCiwbmGjkfZvg7yGbdLLFHU6E9m1kRHqajjYrN7IgJMRtgCwhsk&skey=379c1eccf863c625&v=v21) format('woff2');
+}
+
+@font-face {
+	font-family: "Open Sans";
+	font-style: normal;
+  font-display: swap;
+	font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/l/font?kit=mem5YaGs126MiZpBA-UNirk-UOJuCqap2or7cxi3jFe_r9PDwYxU1UlvAB11ieReMWEWyk5qS968WdJLOLPExhbUB5iSu-GrmD2pkIpWsdToCfVbSZYblIW4vP1oj726wuG5XqgXKXcWPwTEJjc&skey=a162967ffaa5aa08&v=v17) format('woff2');
+}
+
+@font-face {
+	font-family: "Open Sans";
+	font-style: normal;
+  font-display: swap;
+	font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/l/font?kit=mem8YaGs126MiZpBA-U1V5ccXcheV4e3oZvmbxG5_i_CrNbExI9Z2kRsBRpwivlBLGITzUtpROmJYNdMPbDJyRvXAp-XuPy0hT6sl49VvmA-sYg5CupR1svy7rM43eTqoLjTPMZ9WxlmTX0&skey=62c1cbfccc78b4b2&v=v17) format('woff2');
+}
