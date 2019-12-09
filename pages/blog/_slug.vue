@@ -14,15 +14,15 @@
           <div class="elevate-cover__left">
             <span class="blogSelected-year">{{ year }}</span>
             —
-            <nuxt-link
+            <!-- <nuxt-link
               v-if="trans"
               v-for="(locale, i) in showLocales"
               :key="i"
-              :to="`${locale.code == 'en' ? '' : '/' + locale.code}/blog/${trans}`"
+              :to="`${locale.code == 'es' ? '' : '/' + locale.code}/${trans}`"
             >
                 {{ $t('changeLanguagePost') }}
-            </nuxt-link>
-            <span v-else>{{ $t('soonLanguagePost') }}</span>
+            </nuxt-link> -->
+            <!-- <span v-else>{{ $t('soonLanguagePost') }}</span> -->
             <h1 class="elevate-cover__title">
               {{ title }}
             </h1>
@@ -133,7 +133,7 @@
         return {
           hid: 'alternate-hreflang-' + this.showLocales[0].iso,
           rel: 'alternate',
-          href: `${process.env.baseUrl + (this.showLocales[0].code === 'en' ? '' : '/es')}/blog/${this.trans}`,
+          href: `${process.env.baseUrl + (this.showLocales[0].code === 'es' ? '' : '/en')}/${this.trans}`,
           hreflang: this.showLocales[0].code
         }
       },

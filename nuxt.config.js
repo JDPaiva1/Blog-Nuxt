@@ -110,7 +110,7 @@ module.exports = {
     routes: [
       '/es', '404'
     ]
-    .concat(blogsEn.map(w => `/blog/${w}`))
-    .concat(blogsEs.map(w => `es/blog/${w}`))
+    .concat(blogsEn.map(w => `en/${w}`))
+    .concat(blogsEs.map(w => `/${w}`))
   }
 }
